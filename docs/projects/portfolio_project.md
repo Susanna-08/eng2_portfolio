@@ -1,4 +1,4 @@
-# Portfolio Project 
+# **Portfolio Project** 
 ## Project Overview
 Our first project of the year in engineering two was to set up this page as a portfolio for recording our own projects that would be available to the general public. This site was created in VS code with a bit of python but mostly markdown. (For which I used a very handy cheatsheet linked below.) 
 
