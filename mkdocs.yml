@@ -18,6 +18,7 @@ nav:
   - Home: index.md
   - Projects:
       - Hello: projects/hello.md
+      - Portfolio Project: projects/portfolio_project.md
   - About: about.md
 
 markdown_extensions:

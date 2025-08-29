@@ -4,7 +4,7 @@ Our first project of the year in engineering two was to set up this page as a po
 ## Struggles and solutions 
 I had previously learned python in a mostly creative environment and transfering that knowlege to a more technical use in the terminal was a bit of a challange, but after my teacher explained it mulitple times and I was able to think and work through it, I was able to adjust. Further complications included pages that failed to save after using the mac command resulting in a malfunctioning gitignore page. Once we figured out how to save the pages properly, that issue resolved itself. 
 
-# Skills learned 
+## Skills learned 
 
 - using VS code, including the terminal and markdown pages 
 - creating a page in VS code then launching it to github
@@ -12,4 +12,4 @@ I had previously learned python in a mostly creative environment and transfering
 
 
 ### Markdown Cheatsheet 
-This is the very helpful [markdown] (https://www.markdownguide.org/cheat-sheet/) cheat sheet I used to help me create this page. 
+[This](https://www.markdownguide.org/cheat-sheet/) is the very helpful markdown cheat sheet I used to help me create this page. 
