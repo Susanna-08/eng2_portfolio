@@ -1,4 +1,4 @@
-# Summary 
+# Project Overview
 Our first project of the year in engineering two was to set up this page as a portfolio for recording our own projects that would be available to the general public. This site was created in VS code with a bit of python but mostly markdown. (For which I used a very handy cheatsheet linked below.) 
 
 ## Struggles and solutions 
@@ -11,5 +11,5 @@ I had previously learned python in a mostly creative environment and transfering
 - updating and pushing a page in VS code to the corresponding page in github 
 
 
-### Markdown Cheatsheet 
+## Markdown Cheatsheet 
 [This](https://www.markdownguide.org/cheat-sheet/) is the very helpful markdown cheat sheet I used to help me create this page. 
