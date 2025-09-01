@@ -11,8 +11,8 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: pink
-      accent: beige
+      primary: deep purple 
+      accent: teal
 
 nav:
   - Home: index.md
