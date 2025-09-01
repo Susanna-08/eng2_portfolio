@@ -8,3 +8,4 @@ Hi! My name is Susanna Parham and I’m a high school senior taking Engineering 
 - Onshape (CAD), FEA basics
 - Robotics fundamentals
 - Documentation & presentation
+- AI
