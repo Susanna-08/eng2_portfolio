@@ -1,6 +1,6 @@
 # Using uv and pip 
 ## uv 
-When creating my portfolio, I first did everything with uv. Using uv really ismplifies the process and makes things easier. This the flow I used following [this](https://decherd.github.io/eng2_portfolio/projects/portfolio/) set of instructions and links: 
+When creating my portfolio, I first did everything with uv. Using uv really simplifies the process and makes things easier. This the flow I used following [**this**](https://decherd.github.io/eng2_portfolio/projects/portfolio/) set of instructions and links: 
 
     mkdir eng2_portfolio # make the folder
     cd eng2_portfolio # navigate into the folder 
