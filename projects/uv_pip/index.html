@@ -530,12 +530,49 @@
 
 <h1 id="using-uv-and-pip">Using uv and pip</h1>
 <h2 id="uv">uv</h2>
-<p>When creating my portfolio, I first did everything with uv. Using uv really ismplifies the process and makes things easier. These are some of the commands I used:</p>
-<p><code>uv pip install mkdocs mkdocs-material</code> This command was the first I used and it installed mkdocs into the uv's environment. Next I initialized my start mkdocs site with <code>uv run mkdocs new .</code>
-To push my code to build my site, and to update it when I make changes, I use <code>uv run mkdocs gh-deploy</code>. This is by far the string of code I use most often for my portoflio. 
-Using <code>uv run mkdocs serve</code> allows you to see a quick, local preview of your site. </p>
+<p>When creating my portfolio, I first did everything with uv. Using uv really ismplifies the process and makes things easier. This the flow I used following <a href="https://decherd.github.io/eng2_portfolio/projects/portfolio/">this</a> set of instructions and links: </p>
+<div class="language-text highlight"><pre><span></span><code>mkdir eng2_portfolio # make the folder
+cd eng2_portfolio # navigate into the folder
+
+uv pip install mkdocs mkdocs-material # install mkdocs and material into uv&#39;s environment
+
+uv run mkdocs new . # initialize an mkdocs site
+
+uv run mkdocs serve # run a local dev server
+
+git init
+git add .
+git commit -m &quot;Initial MkDocs portfolio&quot;
+git branch -M main
+git remote add origin https://github.com/&lt;YOUR_GITHUB_USERNAME&gt;/eng2_portfolio.git
+git push -u origin main
+
+uv run mkdocs gh-deploy # publish and push the site
+</code></pre></div>
 <h2 id="pip">pip</h2>
-<p>Pip runs a lot slower and with more commands than uv. However, uv is not supported everywhere and so it is useful to know pip. </p>
+<p>Pip runs a lot slower and with more commands than uv. However, uv is not supported everywhere and so it is useful to know pip. This is a rundown of what I did and learned:</p>
+<div class="language-text highlight"><pre><span></span><code>mkdir project # creates a folder
+
+cd project # navigates into that folder
+
+python -m venv .venv # creates a virtual environment
+
+source .venv/bin/activate # activates and enters the vitrtual environement on a mac
+
+pip install (your choice of library) # installs your choice of python libraries
+
+python main.py # run virtual environment
+</code></pre></div>
+<p>Next, to clone a repo onto your comuputer you can do </p>
+<div class="language-text highlight"><pre><span></span><code>git clone (link of the repo) # reate the folder with the repo
+cd (repo name) #navigate into repo
+</code></pre></div>
+<p>Then if you are using uv you can sync it with a simple line of code: </p>
+<div class="language-text highlight"><pre><span></span><code>uv sync
+</code></pre></div>
+<p>However, with pip, you have to go through the process of creating and activating a virtual enviornment. The good news is that instead of adding each library indicidually, most projects have a requiremnets file which you can make use of like this:</p>
+<div class="language-text highlight"><pre><span></span><code>pip install -r requirements.txt
+</code></pre></div>
 
 
 
