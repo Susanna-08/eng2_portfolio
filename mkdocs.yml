@@ -19,6 +19,7 @@ nav:
   - Projects:
       - Hello: projects/hello.md
       - Portfolio Project: projects/portfolio_project.md
+      - Using uv and pip: projects/uv_pip.md
   - About: about.md
 
 markdown_extensions:
