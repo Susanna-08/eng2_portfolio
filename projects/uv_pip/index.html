@@ -13,6 +13,10 @@
         <link rel="canonical" href="https://<YOUR_GITHUB_USERNAME>.github.io/eng2_portfolio/projects/uv_pip/">
       
       
+        <link rel="prev" href="../portfolio_project/">
+      
+      
+        <link rel="next" href="../../about/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +24,7 @@
     
     
       
-        <title>Uv pip - Engineering II Portfolio</title>
+        <title>Using uv and pip - Engineering II Portfolio</title>
       
     
     
@@ -71,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#using-uv-and-pip" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Uv pip
+              Using uv and pip
             
           </span>
         </div>
@@ -203,10 +212,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../hello/" class="md-tabs__link">
           
   
@@ -299,26 +310,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -331,7 +347,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Projects
@@ -384,6 +400,89 @@
 
               
             
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Using uv and pip
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Using uv and pip
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uv" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pip" class="md-nav__link">
+    <span class="md-ellipsis">
+      pip
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -429,9 +528,14 @@
 
 
 
-  <h1>Uv pip</h1>
-
-
+<h1 id="using-uv-and-pip">Using uv and pip</h1>
+<h2 id="uv">uv</h2>
+<p>When creating my portfolio, I first did everything with uv. Using uv really ismplifies the process and makes things easier. These are some of the commands I used:</p>
+<p><code>uv pip install mkdocs mkdocs-material</code> This command was the first I used and it installed mkdocs into the uv's environment. Next I initialized my start mkdocs site with <code>uv run mkdocs new .</code>
+To push my code to build my site, and to update it when I make changes, I use <code>uv run mkdocs gh-deploy</code>. This is by far the string of code I use most often for my portoflio. 
+Using <code>uv run mkdocs serve</code> allows you to see a quick, local preview of your site. </p>
+<h2 id="pip">pip</h2>
+<p>Pip runs a lot slower and with more commands than uv. However, uv is not supported everywhere and so it is useful to know pip. </p>
 
 
 
