@@ -20,6 +20,7 @@ nav:
       - Hello: projects/hello.md
       - Portfolio Project: projects/portfolio_project.md
       - Using uv and pip: projects/uv_pip.md
+      - Hot Wire Styrofoam Cutter: projects/styrofoam_cutter.md
   - About: about.md
 
 markdown_extensions:
